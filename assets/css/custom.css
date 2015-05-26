@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,700,300,600,400&subset=latin,cyrillic);
+body {
+  background: url(images/bg.png) no-repeat fixed;
+  height: 900px; }
+
+header {
+  margin-top: 95px; }
+
+.headerh1 {
+  margin-left: 300px;
+  color: #ffffff;
+  font: 300 72px/53.897px "OpenSans", sans-serif;
+  padding-top: 4px;
+  text-transform: uppercase; }
+
+.larges-4 p {
+  white-space: pre-wrap; }
+
+.side-nav li a:not(.button) {
+  color: #343434;
+  font-family: 'OpenSans',sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1;
+  /* Приближение из-за подстановки шрифтов */
+  text-align: left; }
+
+.content_padding {
+  padding: 25px; }
+
+.row {
+  max-width: 75.5rem; }
+
+.textindent {
+  text-indent: 2em;
+  /* Отступ первой строки */
+  text-align: justify;
+  /* Выравнивание по ширине */
+  font-family: 'OpenSans',sans-serif; }
+
+.content_padding span {
+  font-size: 0.87rem; }
+
+.bordered {
+  border: 2px solid #343434;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.shadowbgwhite {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  padding-bottom: 52px; }
+
+@media only screen and (min-width: 64.063em) {
+  .larges-4 {
+    width: 32.33333%; } }
