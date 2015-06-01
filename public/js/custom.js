@@ -1,6 +1,6 @@
 $(document).ready(function() {
     
-    var jsondb = $.getJSON("/public/database/data.json",function(data){
+    var jsondb = $.getJSON("public/database/data.json",function(data){
     $('#my-ajax-table').dynatable({
         dataset: {
         records: data
