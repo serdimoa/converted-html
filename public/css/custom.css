@@ -9,7 +9,9 @@ body {
 
 
 }
-
+.breadcrumb > li + li:before{
+content:"/";
+}
 header {
   margin-top: 25px; }
 
